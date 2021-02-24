@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--This links to the external stylesheet-->
+      <link rel="stylesheet" href="./index_html.css">  
+      <title>Nigelrex - Homepage</title>
+      <link rel="shortcut icon" type="image/png" href="./assets/images/Nigelrex Face 3D.png"/>    
+     
+    
+        
+    </head>
+    <style>
+.centre{
+  float:center;
+  text-align:center;
+}
+.right{
+  float:right;
+}
+.left{
+  float:left;
+}
+.top{
+  background-color:transparent;
+}
+body {
+  background-image: url("./assets/images/darktheme.png") ;
+      background-repeat: repeat;
+      text-align: center;
+}
+.lighttheme {
+  background-image: url("./assets/images/lighttheme.png") ;
+  background-repeat: repeat;
+  text-align: center;
+}
+.themebutton{
+  background-color: rgb(255, 255, 255);
+  border-color: black;
+  border-radius: 20px;
+  border-width: 5px;
+  color:black;
+}
+
+    </style>
+
+    <body>
+
+      <div class="right">
+
+        
+
+        <button onclick="togglethemebackground()" class="themebutton"><h2>Change Theme</h2></button>
+  
+        
+        
+
+      </div>
+  
+      <br><br>
+  
+      <div class="centre">
+  
+        <div class="navbar">
+  
+          <img src="assets/images/Thumbnail.png">
+  
+        </div>
+  
+      </div>
+    
+  
+    </body>
+    <script>
+      function togglethemebackground() {
+        var element = document.body;
+        element.classList.toggle("lighttheme");
+      }
+    </script>
+</html>

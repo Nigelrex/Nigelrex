@@ -1,0 +1,14 @@
+* {
+    width:cover; 
+    height:cover;
+    
+ }
+
+
+.navbar {
+	list-style-type: none;
+	background-color: var(--primary-background);
+	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+	border-radius: 10px;
+	padding: 0 16px 0 0;
+}
